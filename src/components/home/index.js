@@ -4,6 +4,7 @@ import Footer from '../footer/index'
 import Body from '../body/index'
 import AnimatedCursor from 'react-animated-cursor'
 import {SocialIcon} from 'react-social-icons'
+// import {SpacingEffect} from 'react-background-animation'
 
 
 const Home = () =>{
@@ -27,6 +28,7 @@ const Home = () =>{
                 </div>
             </div>
             <div className="move">
+                {/* <SpacingEffect/> */}
                 <Body/>
             </div>
             <div>

@@ -18,7 +18,7 @@ const About = () =>{
                 I love solving problems creatively. Hard-work, resilience, and consistency are some of my strong skills. 
                 My analytical skills help me see the world from a different angle. I love to figure out how things work, 
                 building them myself gives me immense joy.
-
+                <br/>
                 Happy Coding 😃
 
                 <div className="btnContainer">

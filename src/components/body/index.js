@@ -3,6 +3,7 @@ import './body.css'
 import Header from './header/index'
 import About from './about/index'
 import Landing from './landing/index'
+import Skills from './skills/index'
 
 const Body = () =>{
 
@@ -30,7 +31,9 @@ const Body = () =>{
         if(currentPage === 'Skills'){
             return(
                 <div className="bodyContainer">
-                    {/* <Skills/> */}
+                    <div>
+                        <Skills/>
+                    </div>
                 </div>
             )
         }
