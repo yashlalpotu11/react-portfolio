@@ -4,6 +4,7 @@ import Header from './header/index'
 import About from './about/index'
 import Landing from './landing/index'
 import Skills from './skills/index'
+import Contact from './contact/index'
 
 const Body = () =>{
 
@@ -49,7 +50,9 @@ const Body = () =>{
         if(currentPage === 'Contact'){
             return(
                 <div className="bodyContainer">
-                    {/* <Contact/> */}
+                    <div>
+                        <Contact/>
+                    </div>
                 </div>
             )
         }
