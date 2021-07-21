@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import Footer from '../footer/index'
+import Body from '../body/index'
 import AnimatedCursor from 'react-animated-cursor'
 import {SocialIcon} from 'react-social-icons'
 
@@ -26,7 +27,7 @@ const Home = () =>{
                 </div>
             </div>
             <div className="move">
-
+                <Body/>
             </div>
             <div>
                 <Footer/>
