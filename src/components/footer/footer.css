@@ -20,6 +20,7 @@
         height : 70px;
     }
     .footerItems{
-        display: none;
+        /* display: none; */
+        padding-bottom: 50px;
     }
 }

@@ -22,9 +22,9 @@ const Home = () =>{
             </div>
             <div className="sticky-container">
                 <div className="sticky">
-                    <a href="http://" target='_blank' rel="noreferrer" className="socialIcon"><SocialIcon network="github" bgColor="#82a2c4" /></a>
-                    <a href="http://" target='_blank' rel="noreferrer" className="socialIcon"><SocialIcon network="instagram" bgColor="#82a2c4" /></a>
-                    <a href="http://" target='_blank' rel="noreferrer" className="socialIcon"><SocialIcon network="linkedin" bgColor="#82a2c4" /></a>
+                    <a href="https://github.com/yashlalpotu11" target='_blank' rel="noreferrer" className="socialIcon"><SocialIcon network="github" bgColor="#82a2c4" /></a>
+                    <a href="https://www.instagram.com/using_namespace__std/" target='_blank' rel="noreferrer" className="socialIcon"><SocialIcon network="instagram" bgColor="#82a2c4" /></a>
+                    <a href="https://www.linkedin.com/in/%F0%9D%97%AC%F0%9D%97%AE%F0%9D%98%80%F0%9D%97%B5-%F0%9D%97%9F%F0%9D%97%AE%F0%9D%97%B9%F0%9D%97%BD%F0%9D%97%BC%F0%9D%98%81%F0%9D%98%82-92b4931b4/" target='_blank' rel="noreferrer" className="socialIcon"><SocialIcon network="linkedin" bgColor="#82a2c4" /></a>
                 </div>
             </div>
             <div className="move">
