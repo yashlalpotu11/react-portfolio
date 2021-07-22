@@ -1,13 +1,15 @@
 :root {
     --textcolour: #ADADAD;
-    --mainheader: #C3073F;
-    --hovercolour: #950740;
+    /* --mainheader: #C3073F;
+    --hovercolour: #950740; */
+    --mainheader: #A6D046;
+    --hovercolour: #387a4c;
     --bordercolour: #6F2232;
     --backgroundcolour: #1A1A1D
 }
 
 .this {
-    background-color: var(--bordercolour);
+    background-color: var(--hovercolour);
     border-radius: 5px;
 }
 .computer {

@@ -1,7 +1,9 @@
 :root {
     --textcolour: #ADADAD;
-    --mainheader: #C3073F;
-    --hovercolour: #950740;
+    /* --mainheader: #C3073F;
+    --hovercolour: #950740; */
+    --mainheader: #A6D046;
+    --hovercolour: #387a4c;
     --bordercolour: #6F2232;
     --backgroundcolour: #1A1A1D;
 }
@@ -132,6 +134,8 @@
 .picContainer {
     margin-top: 30px;
     margin-right: 70px;
+    width: 100%;
+    height: 100%;
 }
 
 .aboutPic {

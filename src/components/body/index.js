@@ -5,7 +5,7 @@ import About from './about/index'
 import Landing from './landing/index'
 import Skills from './skills/index'
 import Contact from './contact/index'
-
+import Portfolio from './portfolio/index'
 const Body = () =>{
 
     const[currentPage, setCurrentPage] = useState('About');
@@ -42,7 +42,9 @@ const Body = () =>{
         if(currentPage === 'Portfolio'){
             return(
                 <div className="bodyContainer">
-                    {/* <Portfolio/> */}
+                    <div>
+                        <Portfolio/>
+                    </div>
                 </div>
             )
         }
