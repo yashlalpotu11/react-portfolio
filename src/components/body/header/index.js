@@ -9,9 +9,9 @@ const Header = ({currentPage, handlePageChange}) => {
 
     return(
         <div className="headerContainer">
-            <div className="logo">
+            <a href="#about" onClick={()=>handlePageChange('About')} className="logo">
                 YL
-            </div>
+            </a>
             <div className="nav">
                 <div className="compNav">
                     <ComputerHeader currentPage={currentPage} handlePageChange={handlePageChange} />

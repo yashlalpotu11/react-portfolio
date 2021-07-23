@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://SamuelHeal.github.io/React-Portfolio",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",

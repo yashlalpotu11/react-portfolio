@@ -69,7 +69,7 @@ const Project = (props) =>{
             <div className="projInfoContainer">
                 <h2>{props.props.name}</h2>
                 <p className="projCat">{props.props.type}</p>
-                <p className="projSpec"><span>Technology :</span><br/><br/></p>
+                <p className="projSpec"><span>Technology :</span> {props.props.technology}<br/><br/></p>
                 {renderWebsites()}
             </div>
             {renderImg()}

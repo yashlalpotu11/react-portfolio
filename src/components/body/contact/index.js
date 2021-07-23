@@ -9,6 +9,7 @@ const Contact = ()=>{
     // const emailRegex = /^([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5})$/
 
     const handleSubmit = () =>{
+        alert('Form is currently out of service, please contact me via phone, email or social media :)')
         document.getElementById("form").reset();
         setIsValid(false);
         setMessage("");
@@ -34,7 +35,7 @@ const Contact = ()=>{
                 <form id="form" className="topBefore" onSubmit={handleSubmit}>
                     <input type="text" id="name" placeholder="NAME" required />
                     <input type="email" id="email" placeholder="E-MAIL" required />
-                    <textarea type="text" id="message" placeholder="TYPE ANYTHING..." required ></textarea>
+                    <textarea type="text" id="message" placeholder="MESSAGE - (form is currently out of service, please contact me via phone, email or social media)" required ></textarea>
                     <input type="submit" id="submit" value="Send"/>
                 </form>
             </div>

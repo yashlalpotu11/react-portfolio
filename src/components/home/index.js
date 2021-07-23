@@ -14,7 +14,7 @@ const Home = () =>{
                 <AnimatedCursor
                     innerSize={16}
                     outerSize={12}
-                    color='166,208,70'
+                    color='223,42,97'
                     outerAlpha={0.8}
                     innerScale={1}
                     outerScale={5}

@@ -74,5 +74,5 @@
 
 .mobileOptions a:hover {
     text-decoration: none;
-    color: var(--hovercolour);
+    color: var(--textcolour);
 }

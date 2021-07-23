@@ -44,6 +44,7 @@
     font-size: 50px;
     color: var(--mainheader);
     font-weight: 800;
+    text-decoration: none;
 }
 
 .menuIcon {
