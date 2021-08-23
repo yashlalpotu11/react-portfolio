@@ -30,8 +30,8 @@ const Skills = () =>{
                     <p>React.js</p>
                     <p>Node.js</p>
                     <p>Express.js</p>
-                    <p>Bootstrap</p>
-                    <p>Selenium</p>
+                    <p>React Native</p>
+                    <p>Git</p>
                     <p>Material UI</p>
                     <p>Firebase</p>
                 </div>
